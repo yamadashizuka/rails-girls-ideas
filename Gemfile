@@ -48,5 +48,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # add for MOGOK
-gem ‘therubyracer’, :platforms => :ruby
 gem ‘mysql2’
+gem 'therubyracer', :platforms => :ruby
