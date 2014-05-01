@@ -46,7 +46,3 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
-# add for MOGOK
-gem ‘mysql2’
-gem 'therubyracer', :platforms => :ruby
