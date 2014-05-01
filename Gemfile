@@ -8,6 +8,7 @@ gem 'sqlite3'
 
 # for MOGOK
 gem 'mysql2'
+gem 'therubyracer', :platforms => :ruby
 
 # Use carrierwave
 gem 'carrierwave'
