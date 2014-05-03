@@ -7,8 +7,10 @@ gem 'rails', '4.0.2'
 gem 'sqlite3'
 
 # for MOGOK
-gem 'mysql2'
-gem 'therubyracer', :platforms => :ruby
+group :mogok do
+  gem 'mysql2'
+  gem 'therubyracer', :platforms => :ruby
+end
 
 # Use carrierwave
 gem 'carrierwave'
